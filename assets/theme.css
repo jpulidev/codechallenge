@@ -555,7 +555,10 @@ textarea {
   text-align: right !important; }
 
 .text-center {
-  text-align: center !important; }
+  text-align: center !important;
+  max-width: 800px;
+  margin: 0 auto;
+}
 
 /*================ Build Responsive Grid Classes ================*/
 @media only screen and (max-width: 749px) {
@@ -5842,7 +5845,6 @@ hr {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: var(--color-image-overlay);
   opacity: var(--opacity-image-overlay);
   z-index: 1; }
 
@@ -5854,7 +5856,20 @@ hr {
   z-index: 2; }
 
 .hero__btn {
-  margin-top: 27.5px; }
+  margin-top: 27.5px;
+  border-radius: 40px;
+  padding-right: 35px;
+  padding-left: 35px;
+  font-weight: 300;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+.hero__btn:hover{
+color:#57AD68!important;
+background:#fff!important;
+
+}
+
 
 /*================ Fixed width ================*/
 .hero-fixed-width {
